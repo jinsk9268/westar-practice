@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*이거 지정 안했더니 가운데 정렬이 안됨....*/
+    height: 100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+/* 버튼, 기타 클릭시 생기는 테투리 제거*/
+* :focus { 
+    outline: none; 
+}

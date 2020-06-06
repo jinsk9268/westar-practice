@@ -1,0 +1,401 @@
+nav {
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+
+.nav-section{
+    width: 975px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    width: 360px;
+    padding: 9.5px 0px;
+}
+
+.img-logo {
+    padding: 5px 10px 5px 0px;
+}
+
+.text-logo{
+    padding-left: 11.5px;
+    border-left: 1.5px solid black;
+}
+
+.nav-serch-input {
+    width: 215px;
+    padding: 12px 0px;
+    position: relative;
+}
+
+.input-img {
+    position: absolute;
+    height: 12px;
+    opacity: 0.4;
+    top: 20px;
+    left: 75px;
+}
+
+.input-text {
+    width: 100%;
+    height: 28px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+}
+
+.input-text::placeholder {
+    text-align: center;
+}
+
+.nav-icon {
+    width: 360px;
+    padding: 12.5px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-icon-img{
+    margin-left: 35px;
+    opacity: 0.9;
+}
+
+main {
+    width:100%;
+    height: 100%;
+    margin-top: 54px;
+    position: absolute;
+    background-color: #fafafa;
+}
+
+/*메인 아무튼 이상하게 먹힘 나중에 할때 다시 잘 확인해보기*/
+.main-section {
+    width: 935px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.feeds {
+    width: 614px;
+    height: 920px;
+    margin-top: 54px;
+}
+
+article {
+    background-color: #FFFFFF;
+    position: relative;
+    border: 1px solid #dbdbdb;
+}
+
+.arti-top {
+    height: 60px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.a-t-profile {
+    height: 32px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 0.5px solid #dbdbdb;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.a-t-follow {
+    margin-left: 16px;
+    padding-top: 4px;
+}
+
+.a-t-info {
+    position: absolute;
+    height: 24px;
+    right: 16px;
+}
+
+.arti-mid {
+    height: 614px;
+}
+
+.a-m-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.arti-bottom-1 {
+    height: 40px;
+    padding: 8px 16px;
+    position: relative;
+}
+
+.a-b-icon {
+    margin-right: 12px;
+    height: 24px;
+}
+
+.a-b-icon.bookmark {
+    position: absolute;
+    margin-right: 0px;
+    right: 16px;
+}
+
+.arti-bottom-2 {
+    height: 40px;
+    padding: 0px 16px 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.a-b-like-text {
+    margin-left: 15px;
+}
+
+.a-b-like-span, .a-t-c-content {
+    font-size: 14px;
+}
+
+.arti-comment {
+    max-height: 80px;
+    overflow-x: hidden;
+}
+
+.a-t-c-form {
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 0px 16px;
+}
+
+.a-t-c-userid {
+    margin-right: 5px;
+}
+
+.a-t-c-comment-del {
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #0095f6;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.arti-comment-time {
+    height: 20px;
+    padding: 0px 16px;
+    margin: 0px 0px 4px;
+    position: absolute;
+    bottom: 60px;
+}
+
+time {
+    font-size: 10px;
+    color: #8e8e8e;
+    letter-spacing: .2px;
+}
+
+.arti-comment-input {
+    height: 56px;
+    padding: 0px 16px;
+    margin: 4px 0px 0px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+}
+
+.a-c-i-form {
+    height: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.a-c-i-addtext {
+    resize: none;
+    width: 95%;
+    border: 0px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.a-c-i-button {
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #0095f6;
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+}
+
+/*fixed 고정 오류 살펴보기*/
+.main-right {
+    width: 293px;
+    margin: 0px 24px;
+    padding-top: 54px;
+}
+
+.mr-instar-info {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mr-i-i-myprofile {
+    border-radius: 50%;
+}
+
+.mr-i-i-textinfo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.mr-i-i-ts {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.mr {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    height: 290px;
+    border: 1px solid #dbdbdb;
+    margin-top: 20px;
+    padding: 0px 10px;
+}
+
+.mr-top {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.mr-top-left {
+    /* > 로 하면 폰트가 안먹힘..다시 찾아보기
+    display: table-cell;
+    vertical-align: middle;
+    */
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #8e8e8e;
+    letter-spacing: 1.5px;
+}
+
+.mr-top-right {
+    /* display flex라 안먹히는것같음
+    display: table-cell;
+    vertical-align: middle;
+    */
+    font-size: 11px;
+    font-weight: 600;
+    color: #2e2c2c;
+    letter-spacing: 1.5px;
+    padding-top: 4px;
+}
+
+.mr-story-line {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.m-s-l-img, .m-r-l-img {
+    border-radius: 50%;
+}
+
+.m-s-l-linktime{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.m-s-l-link, .m-r-l-link {
+    font-size: 14px;
+}
+
+.m-s-l-time {
+    font-size: 12px;
+}
+
+.mr-recommend-line {
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.m-r-l-linkfollow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px 10px;
+}
+
+.follow-people {
+    font-size: 12px;
+    overflow: hidden;
+    color: #8e8e8e;
+}
+
+.m-r-l-btnfollow {
+    border: 0px;
+    background-color: #FFFFFF;
+    color: #0095f6;
+    font-size: 13px;
+    font-weight: 600;
+    width: 36px;
+}
+
+.m-r-l-btnfollow:hover {
+    color: #0562f7;
+}
+
+footer {
+    height: 105px; 
+    margin-top: 10px;
+}
+
+.footer-ul {
+    height: 60px;
+}
+
+.footer-li {
+    list-style: none;
+    display: inline-block;
+    font-size: 11px;
+    color: #8e8e8e;
+    height: 20%;
+}
+
+.footer-li:not(:last-of-type):after {
+    content: ' \00B7';
+}
+
+.footer-span {
+    font-size: 11px;
+    color: #8e8e8e;
+}

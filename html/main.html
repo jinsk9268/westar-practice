@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>westargram main</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+     <link href="style/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- <script src="js/main.js"></script> -->
+    <nav>
+      <section class="nav-section">
+        <div class="nav-logo">
+          <img class="img-logo" alt="img instar logo" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png">
+          <img class="text-logo" alt="text instar logo" src="img/logo_text.png">
+        </div>
+        <div class="nav-serch-input">
+          <img class="input-img" alt="img-input" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+          <input class="input-text" type="text" placeholder="검색">
+        </div>
+        <div class="nav-icon">
+          <img class="nav-icon-img" alt="img compass" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png">
+          <img class="nav-icon-img" alt="img heart" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
+          <img class="nav-icon-img" alt="img myinfo" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png">
+        </div>
+      </section>
+    </nav>
+    <main>
+      <section class="main-section">
+        <div class="feeds">
+          <article>
+            <div class="arti-top">
+              <img class="a-t-profile" alt="img-profile" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/16230790_1853381044934035_7318178725361614848_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=1anxp3iBX6oAX9Kw_Tz&amp;oh=fc8faba41987174fb739503f740780dd&amp;oe=5F03C505">
+              <a class="link a-t-follow" href="https://www.instagram.com/matthewjam/?hl=ko">matthewjam</a>
+              <img class="a-t-info" alt="img-three-dot" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png">
+            </div>
+            <div class="arti-mid">
+              <img class="a-m-img" alt="피드 이미지" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-15/e35/101106610_182127813122929_3391656150019650336_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_ohc=-QRzoyvy4a8AX_bWDcQ&amp;oh=4184a98c24be83156352750513077337&amp;oe=5F0071DB">
+            </div>
+              <div class="arti-bottom-1">
+                <img class="a-b-icon heart" alt="icon-heart" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
+                <img class="a-b-icon comment" alt="icon-comment" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png">
+                <img class="a-b-icon share" alt="icon-share" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png">
+                <img class="a-b-icon bookmark" alt="icon-bookmark" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png">
+              </div>
+              <div class="arti-bottom-2">
+                <img class="a-b-like-profile" alt="좋아요 프로필" src="https://instagram.fbbi3-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fbbi3-1.fna.fbcdn.net&_nc_ohc=8_uE6AH0S60AX93BnL-&oh=17904fa6cdc07f3ae435a258e77bdc4d&oe=5F03DA8F&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2">
+                <div class="a-b-like-text">
+                <a class="link like-instar" href="https://www.instagram.com/jasmine__jsk/?hl=ko">jasmine__jsk</a>
+                <span class="a-b-like-span">님</span>
+                <a class="link like-page" href="#none">외 3명</a>
+                <span class="a-b-like-span">이 좋아합니다</span>
+                </div>
+              </div>
+              <div class="arti-comment">
+                <div class="a-t-c-form">
+                  <a class="link a-t-c-userid">yunesday</a>
+                  <span class="a-t-c-content">ㅋㅋㅋㅋㅋ너무해ㅠㅠ</span>
+                </div>
+                <div class="a-t-c-form">
+                  <a class="link a-t-c-userid">ajk_3469</a>
+                  <span class="a-t-c-content">???</span>
+                </div>
+              </div>
+              <!-- time태그 사용법 숙지하기 -->
+              <div class="arti-comment-time">
+                <time class="a-t-c-timing">4일 전</time>
+              </div>
+            <div class="arti-comment-input">
+              <form class="a-c-i-form">
+                <!-- textarea 로도 사용 사능 엔터 누를때마다 스크롤
+                <textarea class="a-c-i-addtext" placeholder="댓글 달기..."></textarea>
+                -->
+                <!-- input 엔터키 먹이면 페이지 reload -->
+                <!-- 의미없는 input tag추가 해주면 방지할 수 있음-->
+                <input type="text" style="display:none;">
+                <input class="a-c-i-addtext" type="text" placeholder="댓글 달기...">
+                <!-- type="button" 미지정시 계속 클릭할때마다 페이지 reload됨 -->
+                <button type="button" class="a-c-i-button">게시</button>
+              </form>
+            </div>
+          </article>
+        </div>
+        <div class="main-right">
+          <div class="mr-instar-info">
+            <div class="mr-i-i-imginfo"> 
+              <img class="mr-i-i-myprofile" alt="내 프로필" src="https://instagram.fupg2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fupg2-1.fna.fbcdn.net&amp;_nc_cat=1&amp;_nc_ohc=8_uE6AH0S60AX-Xv8wz&amp;oh=0d13143b682d5d4afeb6f57a8fabfcec&amp;oe=5F03DA8F&amp;ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2">
+            </div>
+            <div class="mr-i-i-textinfo">
+                <a class="link mr-i-i-tl" href="https://www.instagram.com/jasmine__jsk/">jasmine__jsk</a>
+                <span class="mr-i-i-ts">언젠가는 되겠지...</span>
+            </div>
+          </div>
+          <div class="mr mr-story">
+            <div class="mr-top">
+              <div class="mr-top-left">스토리</div>
+              <a class="link mr-top-right" href="#none">모두보기</a> 
+            </div>
+            <div class="mr-story-line">
+              <img class="m-s-l-img" alt="스토리 업데이트" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/11259380_355578351305074_1494114058_a.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=zTGynKyNHncAX953fbX&amp;oh=f151b80c3c005c98094598d109fb31a6&amp;oe=5F04CD34">
+              <div class="m-s-l-linktime">
+                <a class="link m-s-l-link" href="#none">zacefron</a>
+                <time class="m-s-l-time">4분 전</time>
+              </div>
+            </div>
+            <div class="mr-story-line">
+              <img class="m-s-l-img" alt="스토리 업데이트" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/101703932_264332984810770_2870985139712688128_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=zkG6ymrrcFMAX8OkpiW&amp;oh=c8403cd330f5c8d9a761712cb513c523&amp;oe=5F0505FD"  >
+              <div class="m-s-l-linktime">
+                <a class="link m-s-l-link" href="#none">instagram</a>
+                <time class="m-s-l-time">30분 전</time>
+              </div>
+            </div>
+            <div class="mr-story-line">
+              <img class="m-s-l-img" alt="스토리 업데이트" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/95689832_3250298895194727_4685303179515002880_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=gMSu707SH6MAX_Xjgip&amp;oh=9e4a0c74cb7880247e95b20c05da003f&amp;oe=5F03ACFE">
+              <div class="m-s-l-linktime">
+                <a class="link m-s-l-link" href="#none">mercedesbenz_de</a>
+                <time class="m-s-l-time">1시간 전</time>
+              </div>
+            </div>
+            <div class="mr-story-line">
+              <img class="m-s-l-img" alt="스토리 업데이트" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/92346759_3432646253417743_7236500683753521152_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=YJ4z8xj9XHIAX9VfADk&amp;oh=be337c5732fd90645f6ab8f5ff3fb0d7&amp;oe=5F045686">
+              <div class="m-s-l-linktime">
+                <a class="link m-s-l-link" href="#none">jlo</a>
+                <time class="m-s-l-time">15시간 전</time>
+              </div>
+            </div>
+            <div class="mr-story-line">
+              <img class="m-s-l-img" alt="스토리 업데이트" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/71035156_1437982729689543_3632795403243487232_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=TjenkrcRuIAAX_hGxFB&amp;oh=e997c708dc13f607a5fcd39c7b4daad8&amp;oe=5F03A3FF">
+              <div class="m-s-l-linktime">
+                <a class="link m-s-l-link" href="#none">thiago6 </a>
+                <time class="m-s-l-time">20시간 전</time>
+              </div>
+            </div>
+          </div>
+          <div class="mr mr-recommend">
+            <div class="mr-top">
+              <div class="mr-top-left">회원님을 위한 추천</div>
+              <a class="link mr-top-right" href="#none">모두보기</a> 
+            </div>
+            <div class="mr-recommend-line">
+              <img class="m-r-l-img" alt="인스타 추천" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/83249879_599309397346577_8583207556522967040_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=fRl3B-GKnW0AX_XzDXm&amp;oh=226cd7d3bb063cc8583cb4c02ac339b9&amp;oe=5F033411">
+              <div class="m-r-l-linkfollow">
+                <a class="link m-r-l-link" href="#none">taylorswift</a>
+                <span class="follow-people">thiago6님 외 199명이 좋아합니다</span>
+              </div>
+              <div class="m-r-l-button">
+                <button class="m-r-l-btnfollow">팔로우</button>
+              </div>
+            </div>
+            <div class="mr-recommend-line">
+              <img class="m-r-l-img" alt="인스타 추천" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/96529870_558706811690253_8857266954369499136_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=bmeQgPNBSSIAX8RCm2x&amp;oh=a03a79743022988fdc3d028494fa920e&amp;oe=5F05134A">
+              <div class="m-r-l-linkfollow">
+                <a class="link m-r-l-link" href="#none">nikkietutorials</a>
+                <span class="follow-people">christian_fig님 외 1,089명이 좋아합니다</span>
+              </div>
+              <div class="m-r-l-button">
+                <button class="m-r-l-btnfollow">팔로우</button>
+              </div>
+            </div>
+            <div class="mr-recommend-line">
+              <img class="m-r-l-img" alt="인스타 추천" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/101436482_273230760719318_4339235927646797824_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=FMNDiyfpygMAX-tda-n&amp;oh=649381e2bf82379fe0a4bf22f99a7667&amp;oe=5F024BC1">
+              <div class="m-r-l-linkfollow">
+                <a class="link m-r-l-link" href="#none">lelepons</a>
+                <span class="follow-people">alessandraambrosio님 외 10명이 좋아합니다</span>
+              </div>
+              <div class="m-r-l-button">
+                <button class="m-r-l-btnfollow">팔로우</button>
+              </div>
+            </div>
+            <div class="mr-recommend-line">
+              <img class="m-r-l-img" alt="인스타 추천" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/90204813_521199672163123_6548735888333996032_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=6yhkoAEEr40AX90INal&amp;oh=ed2b5e50a7ac6b3431eddc5db5759f98&amp;oe=5F020AEF">
+              <div class="m-r-l-linkfollow">
+                <a class="link m-r-l-link" href="#none">worldstar</a>
+                <span class="follow-people">ayutingting92님 외 104명이 좋아합니다</span>
+              </div>
+              <div class="m-r-l-button">
+                <button class="m-r-l-btnfollow">팔로우</button>
+              </div>
+            </div>
+            <div class="mr-recommend-line">
+              <img class="m-r-l-img" alt="인스타 추천" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/67079378_2554958311398016_3446247243953209344_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&amp;_nc_ohc=FjlEd4c5puwAX_1pIvq&amp;oh=56ae207ad3310ec829b3411033725023&amp;oe=5F02398B">
+              <div class="m-r-l-linkfollow">
+                <a class="link m-r-l-link" href="#none">workinghard</a>
+                <span class="follow-people">gogogo님 외 199명이 좋아합니다</span>
+              </div>
+              <div class="m-r-l-button">
+                <button class="m-r-l-btnfollow">팔로우</button>
+              </div>
+            </div>
+
+          </div>
+          <footer>
+            <ul class="footer-ul">
+              <li class="footer-li">Instargram 정보</li>
+              <li class="footer-li">지원</li>
+              <li class="footer-li">홍보 센터</li>
+              <li class="footer-li">API</li>
+              <li class="footer-li">채용 정보</li>
+              <li class="footer-li">개인정보처리방침</li>
+              <li class="footer-li">약관</li>
+              <li class="footer-li">디렉터리</li>
+              <li class="footer-li">프로필</li>
+              <li class="footer-li">해시태그</li>
+              <li class="footer-li">언어</li>
+            </ul>
+            <span class="footer-span">© 2020 INSTAGRAM</span>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
